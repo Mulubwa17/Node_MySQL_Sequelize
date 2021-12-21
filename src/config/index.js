@@ -11,7 +11,7 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   logging: 0,
   operatorsAliases: 0,
 });
-sequelize.query('CREATE DATABASE IF NOT EXISTS `nodesq5`;', { raw: true, type: Sequelize.QueryTypes.CREATE_DATABASE }).then(() => {}).catch(err => {})
+sequelize.query('CREATE DATABASE IF NOT EXISTS `nodesql`;', { raw: true, type: Sequelize.QueryTypes.CREATE_DATABASE }).then(() => {}).catch(err => {})
 sequelize
   .authenticate()
   .then(() => {

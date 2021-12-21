@@ -1,8 +1,8 @@
 module.exports = {
     HOST: 'localhost',
-    USER: 'root',
-    PASSWORD: 'Chungu17',
-    DB: 'nodesq5',
+    USER: 'your_username e.g root',
+    PASSWORD: 'yourpassword',
+    DB: 'nodesql',
     dialect: 'mysql',
     pool: {
         
